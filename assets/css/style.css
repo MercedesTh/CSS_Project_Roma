@@ -24,11 +24,6 @@ body{
 
 /* GLOBAL */
 
-/* .parallax{
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(../img/cleo-topper.jpg) fixed no-repeat center/cover;
-    min-height: 100vh;
-} */
-
 .family{
     background: url(../img/see.png) no-repeat center/cover;
     background-color: #efefef;
@@ -42,11 +37,10 @@ body{
 
 .dark{
     background: #000;
-    height: 150vh;
+    height: 160vh;
 }
 
 a{
-    display: inline-block;
     text-decoration: none;
 }
 
@@ -54,8 +48,14 @@ a, h1, span, h5, .dark{
     color: white;
 }
 
-span{
+a, h4, h5{
+    display: inline-block;
+}
+
+span, h5{
     background: rgba(0, 0, 0, 0.4);
+    line-height: 2.5rem;
+    padding: 0 0.5%;
 }
 
 h1, p, h4, h5{
@@ -84,7 +84,9 @@ a, h3, footer p:last-of-type{
 }
 
 .piktogram{
-    width: 10%;
+    width: 9%;
+    display: block;
+    margin-bottom: 10%;
 }
 
 /* HEADER */
@@ -102,14 +104,14 @@ header img{
 
 header a{
     font-weight: 500;
-    line-height: 1rem;
+    font-size: 1rem;
     border-bottom: 1px solid #e7bc0e;
     padding-bottom: 0.5%;
 }
 
 header article{
-    width: 25%;
-    margin: 10% 65% 50% 10%;
+    width: 20%;
+    margin: 10% 65% 23% 10%;
 }
 
 h1{
@@ -119,23 +121,85 @@ h1{
 
 h2{
     font-family: 'Tangerine', cursive;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 50%;
 }
 
 h2:after{
     content: "✓";
     color: #e7bc0e;
+    font-size: 1.5rem;
     margin-left: 4%;
 }
 
-article{
-    width: 90%;
-    margin-left: 14%; 
+main article{
+    width: 86%;
+    margin: 0px 0 9.5% 14%;
 }
 
 p.typeturquoise{
-    width: 85%;
-    margin-left: 15%;
+    width: 37%;
+    margin: 0 10% 28% 19%;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    font-weight: 900;
+}
+
+h3{
+    font-size: 8rem;
+    letter-spacing: -0.5rem;
+}
+
+h4, h5{
     font-size: 2rem;
+}
+
+h5{
+    margin-left: 0.5%;
+}
+
+section:nth-of-type(3) img{
+    margin-bottom: 5%;
+}
+
+section:nth-of-type(3) article{
+    margin-bottom: 11%;
+}
+
+p.typeblue{
+    width: 50%;
+    margin: 0 0 6% 36%;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    font-weight: 900;
+}
+
+/* FOOTER */
+
+footer p:nth-of-type(1){
+    font-size: 5rem;
+    width: 42%;
+    margin-bottom: 5%;
+    padding-top: 23%;
+}
+
+footer a{
+    font-size: 1.5rem;
+    border: 1px solid #fff;
+    padding: 1% 2%;
+    margin-bottom: 22%;;
+}
+
+footer a:hover{
+    box-shadow: 4px 4px #fff;
+}
+
+footer p:nth-of-type(1), footer a{
+    margin-left: 14%;
+}
+
+footer p:nth-of-type(2){
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 300;
 }
