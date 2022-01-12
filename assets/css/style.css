@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Tangerine:wght@400;700&display=swap');
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Tangerine', cursive; */
+
+@font-face{
+    font-family: Santio;
+    src: url(../SANTIO/OTP/Santio\ regular.otf) format("opentype");
+    font-weight: 400;
+}
+
+/* Farben: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), 
+                url(../img/cleo-topper.jpg) fixed no-repeat center/cover;
+}
+
+/* GLOBAL */
+
+/* .parallax{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(../img/cleo-topper.jpg) fixed no-repeat center/cover;
+    min-height: 100vh;
+} */
+
+.family{
+    background: url(../img/see.png) no-repeat center/cover;
+    background-color: #efefef;
+    height: 150vh;
+}
+
+.family img{
+    width: 100vw;
+    height: 150vh;
+}
+
+.dark{
+    background: #000;
+    height: 150vh;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+a, h1, span, h5, .dark{
+    color: white;
+}
+
+span{
+    background: rgba(0, 0, 0, 0.4);
+}
+
+h1, p, h4, h5{
+    font-family: Santio;
+    font-weight: 900;
+}
+
+a, h3, footer p:last-of-type{
+    font-family: 'Roboto', sans-serif;
+}
+
+.typeyellow{
+    color: #e7bc0e;
+}
+
+.typeturquoise{
+    color: #6bc1a3;
+}
+
+.typepink{
+    color: #cb91b6;
+}
+
+.typeblue{
+    color: #7eb8e1 ;
+}
+
+.piktogram{
+    width: 10%;
+}
+
+/* HEADER */
+
+nav{
+    text-align: right;
+    padding: 1% 12% 2% 2%;
+}
+
+header img{
+    width: 1.5%;
+    display: inline-block;
+    margin: 0 0.5%;
+}
+
+header a{
+    font-weight: 500;
+    line-height: 1rem;
+    border-bottom: 1px solid #e7bc0e;
+    padding-bottom: 0.5%;
+}
+
+header article{
+    width: 25%;
+    margin: 10% 65% 50% 10%;
+}
+
+h1{
+    font-size: 4rem; 
+    margin-bottom: 15%;
+}
+
+h2{
+    font-family: 'Tangerine', cursive;
+    font-size: 3rem;
+    margin-bottom: 50%;
+}
+
+h2:after{
+    content: "✓";
+    color: #e7bc0e;
+    margin-left: 4%;
+}
+
+article{
+    width: 90%;
+    margin-left: 14%; 
+}
+
+p.typeturquoise{
+    width: 85%;
+    margin-left: 15%;
+    font-size: 2rem;
+}
